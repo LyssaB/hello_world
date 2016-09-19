@@ -1,0 +1,26 @@
+.h1 {
+	font-size: 36px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-seriff;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #333;
+}
+
+.jumbotron {
+	background-image: url(http://www.webdesigndev.com/wp-content/uploads/2015/02/5-Bokeh-Backgrounds-Vol.jpg)
+	background-size cover;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
