@@ -4,8 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/contact_styles.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<title>Contact Page</title>
 	<link href="https://fonts.googleapis.com/css?family=Pavanam" rel="stylesheet">
 	<!--[if lt IE 9]>
@@ -13,6 +14,22 @@
 	<! [endif]-->
 </head>
 <body>
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="/faq">FAQ</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+			<li>
+				<a href="/about">About</a>
+			</li>			
+			<li style="float:left">
+				<a href="/">Home</a>
+			</li>
+		</ul>
+	</div><!--end nav-->
 	<div class="header">
 		<h1>Contact Me</h1>
 	</div><!--end header-->
@@ -21,16 +38,25 @@
 		<a class="twitter-btn" href="http://www.twitter.com/melissaddesigns"></a>
 		<a class="wordpress-btn" hrefS="http://www.melissadawnmakes.wordpress.com"></a>
 	</div><!--end socialbtns-->
+	<div class="info-text">
+		<p>If there's anything else you'd like to know, please don't hesitate to ask! I'd love to hear from you. The best way to reach me is by email or text.</p>
+	</div><!--end info-text-->
 	<div class="info">
-		<div class="info-text">
-			<p>If there's anything else you'd like to know, please don't hesitate to ask! I'd love to hear from you. The best way to reach me is by email or text.</p>
-		</div><!--end info-text-->
-			<p>Email:
-				<a href="mailto:melissadawn189@gmail.com"> melissadawn189@gmail.com</a>
-				<br>
-				<br>
-				Phone: 555.555.5555
-			</p>
+		<p>
+			<span class="glyphicon glyphicon-inbox">
+			</span>
+			<a href="mailto:melissadawn189@gmail.com"> melissadawn189@gmail.com</a>
+		</p>
+		<p>
+			<span class="glyphicon glyphicon-phone">
+			</span>
+			555.555.5555
+		</p>
+		<p>
+			<span class="glyphicon glyphicon-globe">
+			</span>
+			1234 Middle St<br>Nowhere, NC 12345
+		</p>
 	</div><!--end info-->
 	<div class="footer">
 		<ul>
@@ -56,5 +82,14 @@
 			</li>
 		</ul>
 	</div><!--end footer-->
+  <!-- ============================= -->
+  <!-- All your JavaScript comes now -->
+  <!-- ============================= -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+  </script>
+  <!-- Bootstrap core JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5.js.bootstrap.min.js">
+  </script>
+  <!-- Can place script tags with JavaScript files here -->
 </body>
 </html>
