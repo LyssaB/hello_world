@@ -8,7 +8,9 @@
 
     <title>Hello World!</title>
 
-    <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Pavanam" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Custom styles for this template go here -->
@@ -21,9 +23,10 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!--Jumbotron 
     <div class="jumbotron">
       <div class="container">
         <h1>Lyssa Fineman</h1>
@@ -31,33 +34,282 @@
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="#">FAQ</a>
-      </div><!-- /container -->
-    </div><!-- /jumbotron -->
+      </div>
+    </div>-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="lyssaFineman navbar-brand">
+            <a href="#">Lyssa Fineman</a>
+          </div><!--end lyssaFineman-->
+        </div><!--end navbar-header-->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>     
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </div><!--end nav-->
+      </div><!--end nav container-->
+    </nav><!--end navbar-->
+    <div class="container-fluid anchor" id="home">
+      <div id="carousel-main" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-main" data-slide-to="1"></li>
+          <li data-target="#carousel-main" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active writingImg">
+            <img src="img/writing-828911_1920.jpg" alt="Writing">
+            <div class="carousel-caption">
+              <h2>Imagine something new...</h2>
+            </div>
+          </div>
+          <div class="item compImg">
+            <img src="img/computer-918678_1920.jpg" alt="Desk">
+            <div class="carousel-caption">
+              <h2>Create it...</h2>
+            </div>
+          </div>
+          <div class="item coffeeImg">
+            <img src="img/cup-of-coffee-1280537_1920.jpg" alt="Coffee">
+            <div class="carousel-caption">
+              <h2 style="padding: 20px">Enjoy it!</h2>
+              <p>Doesn't that sound like fun?</p>
+            </div>
+          </div>    
+        </div>
+      </div><!--end carousel-main-->
+    </div><!--end container-fluid-->
+    <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <h2>Portfolio Concept</h2>
           <p>I think my style is more about soft colors and minimalism, so that's what I'd like my portfolio site to look like. I don't have any previous experience, but I'd like my projects to inclue an app for wearable technology (Hopefully I can accomplish that during this course or on my own time with what I learn) and a project for my current employer where we can enable customers to place recurring orders with one click. I would also like to include some of my jewelry designs, if appropriate. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /col -->
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <h2>Project Goals</h2>
           <p>I'm planning on committing at least 15 hours a week, and more whenever I can. I'm not sure about splitting up the projects yet, because I'm not sure how long it will take me to really understand all the concepts, but I expect myself to complete at least an excersise a day. At the end of this course, I want to have a diverse portfolio with a strong style so that I can apply for junior developer positions.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div><!-- /col -->
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <h2>Course Goals</h2>
           <p>I'm changing careers, and I would love to hired as an entry level developer within the first couple months after finishing this course. I have been given the opportunity by my current employer to create an app for our company and manage our website in the mean time, and hopefully I can pick up some low pressure freelance work with others I know while I'm studying to practice working with clients.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /col -->
       </div><!-- /row -->
-
-      <hr>
-
-
     </div> <!-- /container -->
+      <div class="header anchor" id="about">
+    <h1>About</h1>
+  </div><!--end header-->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <img src="img/aboutpic.jpg" class="bio-pic" alt="Lyssa">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h2>Hello, I'm Lyssa!</h2>
+        <p><a href="http://www.melissadawnmakes.wordpress.com" target= "_blank">I make lots of things</a>, and I do even <a href="http://www.melissadawndesigns.com" target="_blank">more stuff.</a> My blood is made of coffee and tea.</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 skills">
+        <h2>My Skills</h2>
+        <ul id="skill-list">
+          <li>I can imagine things</li>
+          <li>I can make things</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="main-text">
+      <h3>Still curious?</h3>
+      <p>Collaborative incubation; global health storytelling, rural vaccines. Inclusive capitalism small-scale farmers our grantees and partners Rockefeller public sector. Advocate think tank, UNHCR safety; resourceful celebrate. Altruism replicable free-speech harness urban. Change movements Bloomberg planned giving change lives results expanding community ownership. Activist invest, agriculture, many voices honor, youth democratizing the global financial system assistance mobilize. Assessment expert women and children thinkers who make change happen fundraising campaign implementation human-centered design UNICEF. Legal aid process combat malaria truth pursue these aspirations. Social analysis, fluctuation, social movement sustainable, enabler network; freedom underprivileged minority. Donation sharing economy; working families; local human potential medicine.</p>
+    </div><!--end main-text -->
+  </div><!--end about -->
+    <div class="header anchor" id="work">
+    <h1>Work</h1>
+  </div><!--end header-->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="http://www.feedyourpets.com"><img src="img/claws.jpg" class="img-responsive">The Pet Pantry</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="http://www.github.com/LyssaB"><img src="img/claws.jpg" class="img-responsive">GitHub</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="http://www.lyssab.bitballoon.com"><img src="img/writing-828911_1920.jpg" class="img-responsive">Portfolio Site</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <a href="http://www.melissadawndesigns.com"><img src="http://www.melissadawndesigns.com/sites/melissadawn.indiemade.com/files/imagecache/im_clientsite_product_thumb/dscn4518.jpg?th=bolt&bg=FFFFFF&ar=3&or=1&st=1" class="img-responsive">Jewelry</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <img src="img/claws.jpg" class="img-responsive">In Progress
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <img src="img/claws.jpg" class="img-responsive">In Progress
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <img src="img/claws.jpg" class="img-responsive">In Progress
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" >
+        <img src="img/claws.jpg" class="img-responsive">In Progress
+      </div>
+    </div>
+  </div><!--end work-->
+  <div id="contact">
+    <div class="header anchor">
+      <h1>Contact Me</h1>
+    </div><!--end header-->
+    <div class="container">
+      <div class="socialbtns">
+        <a class="fb-btn" href="http://www.facebook.com/lyssa.fineman"></a>
+        <a class="twitter-btn" href="http://www.twitter.com/melissaddesigns"></a>
+        <a class="wordpress-btn" hrefS="http://www.melissadawnmakes.wordpress.com"></a>
+      </div><!--end socialbtns-->
+      <div class="info-text">
+        <p>If there's anything else you'd like to know, please don't hesitate to ask! I'd love to hear from you. The best way to reach me is by email or text.</p>
+      </div><!--end info-text-->
+      <div class="info">
+        <p>
+          <span class="glyphicon glyphicon-inbox">
+          </span>
+          <a href="mailto:melissadawn189@gmail.com"> melissadawn189@gmail.com</a>
+        </p>
+        <p>
+          <span class="glyphicon glyphicon-phone">
+          </span>
+          555.555.5555
+        </p>
+        <p>
+          <span class="glyphicon glyphicon-globe">
+          </span>
+          1234 Middle St<br>Nowhere, NC 12345
+        </p>
+      </div><!--end info-->
+    </div><!--end container-->
+  </div><!--end contact-->
+  <div class="header anchor" id="faq">
+    <h1>FAQ</h1>
+  </div><!--end header-->
+  <div class-"container">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <span class="glyphicon glyphicon-chevron-right">
+              </span>
+              Why did you decide to become a web developer?
+            </a>
+          </h4>
+        </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              I've always enjoyed creating things, and love the marriage of aesthetics and functionaliy. There are endless possibilities when creating sites, and it's exciting to help a dream website come to life.
+            </div>
+          </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            <span class="glyphicon glyphicon-chevron-right">
+            </span>
+              Will I get a say in the design?
+            </a>
+          </h4>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              Absolutely! You are the most important part of your site, and it should reflect your tastes, branding, and message.
+            </div>
+          </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+            <span class="glyphicon glyphicon-chevron-right">
+              </span>
+              Who are your clients?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+              I enjoy working with artists and makers to help them make their online presence as vibrant as their products. Small business is alive and well on the internet, but often times, the website doesn't match the style or personality of the creator.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            <span class="glyphicon glyphicon-chevron-right">
+            </span>
+              Does the look of my site really matter?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+          <div class="panel-body">
+              Yes! You can have the best copy in the world, and incredible products, but you only get one chance to make a first impression, and the look is what makes it. We make snap judgements within seconds, and it's important for your brand to shine in those first few moments, as well as give people a solid feel for your personality and branding.
+          </div>
+        </div>      
+      </div> 
+      <div class="panel panel-default" style="padding-bottom: 3em;">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+            <span class="glyphicon glyphicon-chevron-right">
+            </span>
+              Do you register domain names?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+          <div class="panel-body">
+              Unfortuantely, not at this time.
+          </div>
+        </div>  
+      </div><!--end faq-->
+      <!--
     <div class="footer">
       <ul>
         <li>
@@ -81,18 +333,31 @@
           <a href="http://www.melissadawnmakes.wordpress.com" target="_blank">Wordpress</a>
         </li>
       </ul>
-    </div><!--end footer-->
-
+    </div> <--end footer-->
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5.js.bootstrap.min.js">
-    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Can place script tags with JavaScript files here -->
-
+    <script>  
+      $('.carousel').carousel({
+          interval: 5000 //changes the speed
+      });
+    </script>
+    <script type="text/javascript">
+  var $root = $('html, body');
+    $('.navbar-nav a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, 500, function () {
+            window.location.hash = href;
+        });
+        return false;
+    });
+    </script>
   </body>
 
 </html>
